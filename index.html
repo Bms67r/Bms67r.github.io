@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Brad Schinker
+    Pawprint: Bms67r
+    Date: 03/19/19
+    Challenge 2: Web Servers
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge 7: Web Server Home Page</title>
+        
+        <link rel="stylesheet" type="text/css" href="Navbar.css">
+        
+        <style>
+            
+            body {
+              -webkit-animation: background 10s linear infinite;
+              animation: background 10s linear infinite;  
+            }
+
+            @-webkit-keyframes background {
+                0% { background-color: indianred; }
+                25%{ background-color: orange; }
+                50% { background-color: palegreen; }  
+                75% { background-color: cadetblue; }
+                100% { background-color: indianred; }
+            }
+            @keyframes background {
+                0% { background-color: indianred; }
+                25%{ background-color: orange; }
+                50% { background-color: palegreen; }  
+                75% { background-color: cadetblue; }
+                100% { background-color: indianred; }
+            }
+            
+            h1{
+                margin-top: 70px;
+                position: relative;
+                text-decoration: underline;
+                font-family: sans-serif, arial;
+                left: 200px;
+            }
+            
+            #mainWrapper{
+                width: 800px;
+                height: 400px;
+                box-shadow: 10px 10px 10px maroon;
+                border: 5px solid red;
+                margin: 10px auto;
+                margin-bottom: 100px;
+                border-radius: 10px;
+                background-color: ghostwhite;
+                position: relative;
+            }
+            
+            img{
+                position: absolute;
+                margin: 20px;
+                width: 300px;
+                height: 360px;
+                border-radius: 10px;
+                float: left;
+            }
+            
+            div div{
+                position: relative;
+                width: 420px;
+                height: 360px;
+                margin: 20px;
+                float: right;
+                overflow: scroll;
+            }
+            
+            h3, p{
+                display: inline;
+            }
+            
+            h2, h3, p{
+                font-family: sans-serif;
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+ 
+        <ul>
+            <li><a href="Challenge1Files/Bms67rSettingUp.html">Challenge 1</a></li>
+            <li><a href="Challenge2Files/Bms67rHNavbarBio.html">Challenge 2</a></li>
+            <li><a href="Challenge3Files/Bms67rColumns.html">Challenge 3</a></li>
+            <li><a href="Challenge4Files/Bms67rTables.html">Challenge 4</a></li>
+            <li><a href="Challenge6Files/Bms67rEditor.html">Challenge 6</a></li>
+            <li><a class="active" href="index.html">Challenge 7</a></li>
+            <li><a href="../Challenge8/index.php">Challenge 8</a></li>
+            <li><a href="../Challenge9/index.html">Challenge 9</a></li>
+        </ul>
+        
+        <h1>Home Page</h1>
+        
+        <div id="mainWrapper">
+            
+            <img src="2018Profile.jpeg" alt="Brad Profile Pic">
+            
+            <div>
+
+                <h2>Welcome to my website!</h2>
+
+                <p>This site is a compilation of all the homework I have done so far for my CS 2830: Web Development class at Mizzou. Below is a list of what is included: </p>
+
+                <br><br>
+
+                <h3>Challenge 1, Setting Up:</h3><p> This page demonstrates the basics of HTML by creating a simple wikipedia page of a random subject.</p>
+                <br><br>
+
+                <h3>Challenge 2, Navbar Bio:</h3><p> This page is an about me page for yours truly. It also has some paragraphs consisting of Lorem Ipsum text for practice with paragrpahs.</p>
+
+                <br><br>
+
+                <h3>Challenge 3, Multi-Column Layout:</h3><p> This page is practice for postioning contents inside of a container.</p> 
+
+                <br><br>
+
+                <h3>Challenge 4, Movie Theater Showtimes:</h3><p> This page displays the showtimes for two movies like they would be shown on the website of a movie theater. 
+
+                <br><br>
+
+                <h3>Challenge 5:</h3><p> Challenge 5 was all about setting up the AWS web server, and I've got nothing to show for it!</p>
+
+                <br><br>
+
+                <h3>Challenge 6, Code Editor:</h3><p> This page allows you to input HTML and CSS code, and view how that code would be displayed.</p> 
+
+                <br><br>
+                        
+            </div>
+        
+        </div>
+    
+    </body>
+</html>
